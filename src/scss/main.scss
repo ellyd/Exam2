@@ -55,7 +55,7 @@ body {
 		outline: none;
 		cursor: pointer;
 	}
-	&__header {
+	&--header {
 		height: 100vh;
 		padding: 45px 0 80px;
 		color: #fff;
@@ -151,7 +151,7 @@ body {
 			border-color: #fff;
 		}
 	}
-	&__portfolio {
+	&--portfolio {
 		background-color: #f3f3f3;
 		padding: 90px 0 100px;
 		position: relative;
@@ -194,7 +194,7 @@ body {
 		display: block;
 		width: 270px;
 	}
-	&__team {
+	&--team {
 		padding: 80px 0 100px;
 	}
 	&__person {
@@ -294,7 +294,7 @@ body {
 		max-height: 240px;
 		overflow: hidden;
 	}
-	&__bg {
+	&--bg {
 		padding: 60px 0;
 	}
 	&__title--bg {
@@ -320,7 +320,7 @@ body {
 			color: #19bd9a;
 		}
 	}
-	&__test {
+	&--test {
 		padding: 80px 0 100px;
 		background-color: #f3f3f3;
 	}
@@ -361,13 +361,13 @@ body {
 		max-height: 45px;
 		overflow: hidden;
 	}
-	&__contact {
+	&--contact {
 		padding: 80px 0;
 	}
 	&__subtitle--contact {
 		margin-bottom: 0;
 	}
-	&__footer {
+	&--footer {
 		padding: 70px 0;
 	}
 	&__logo--footer {

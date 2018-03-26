@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header class="header">
-		<section class="section section__header" style="background: linear-gradient(rgba(0, 0, 0, .5) 50%, rgba(0, 0, 0, .5) 50%), url(img/bg-header.jpg) no-repeat top;">
+		<section class="section section--header" style="background: linear-gradient(rgba(0, 0, 0, .5) 50%, rgba(0, 0, 0, .5) 50%), url(img/bg-header.jpg) no-repeat top;">
 			<div class="container">
 				<div class="section__head">
 					<a href="#" class="section__logo">BOUNCY</a>
@@ -41,7 +41,7 @@
 		</section>
 	</header>
 	<main class="wrap">
-		<section class="section__portfolio">
+		<section class="section--portfolio">
 			<div class="container">
 				<h2 class="section__title">THE PORTFOLIO</h2>
 				<p class="section__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
@@ -105,7 +105,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="section section__team">
+		<section class="section section--team">
 			<div class="container">
 				<h2 class="section__title">THE TEAM</h2>
 				<p class="section__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
@@ -203,13 +203,11 @@
 				</div>
 			</div>
 		</section>
-		<section class="section section__bg" style="background-image: url(img/bg-contact.jpg);">
-			<div class="container">
-				<h3 class="section__title section__title--bg">Already Loved Us? Let’s talk!</h3>
-				<button class="section__btn">Contact Us</button>
-			</div>
+		<section class="section section--bg" style="background-image: url(img/bg-contact.jpg);">
+			<h3 class="section__title section__title--bg">Already Loved Us? Let’s talk!</h3>
+			<button class="section__btn">Contact Us</button>
 		</section>
-		<section class="section section__test">
+		<section class="section section--test">
 			<div class="container">
 				<h2 class="section__title">Testimonials</h2>
 				<p class="section__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
@@ -241,50 +239,46 @@
 				</div>
 			</div>
 		</section>
-		<section class="section section__contact">
-			<div class="container">
-				<h2 class="section__title">CONTACT US</h2>
-				<p class="section__subtitle section__subtitle--contact">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-			</div>
+		<section class="section section--contact">
+			<h2 class="section__title">CONTACT US</h2>
+			<p class="section__subtitle section__subtitle--contact">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
 		</section>
-		<section class="section section__map">
+		<div class="section section--map">
 			<div id="map"></div>
-		</section>
+		</div>
 	</main>
 	<footer class="footer">
-		<section class="section section__footer">
-			<div class="container">
-				<a href="#" class="section__logo section__logo--footer">bouncy</a>
-				<p class="section__subtitle section__subtitle--footer">Copyright 2015. All rights Reserved</p>
-				<ul class="section__socials">
-					<li class="section__social">
-						<a href="#" class="section__link section__link--footer facebook">
-							<i class="section__icon--footer fa fa-facebook" aria-hidden="true"></i>
-						</a>
-					</li>
-					<li class="section__social">
-						<a href="#" class="section__link section__link--footer twitter">
-							<i class="section__icon--footer fa fa-twitter" aria-hidden="true"></i>
-						</a>
-					</li>
-					<li class="section__social">
-						<a href="#" class="section__link section__link--footer linkedin">
-							<i class="section__icon--footer fa fa-linkedin" aria-hidden="true"></i>
-						</a>
-					</li>
-					<li class="section__social">
-						<a href="#" class="section__link section__link--footer instagram">
-							<i class="section__icon--footer fa fa-instagram" aria-hidden="true"></i>
-						</a>
-					</li>
-					<li class="section__social">
-						<a href="#" class="section__link section__link--footer vimeo">
-							<i class="section__icon--footer fa fa-vimeo" aria-hidden="true"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</section>
+		<div class="section section--footer">
+			<a href="#" class="section__logo section__logo--footer">bouncy</a>
+			<p class="section__subtitle section__subtitle--footer">Copyright 2015. All rights Reserved</p>
+			<ul class="section__socials">
+				<li class="section__social">
+					<a href="#" class="section__link section__link--footer facebook">
+						<i class="section__icon--footer fa fa-facebook" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="section__social">
+					<a href="#" class="section__link section__link--footer twitter">
+						<i class="section__icon--footer fa fa-twitter" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="section__social">
+					<a href="#" class="section__link section__link--footer linkedin">
+						<i class="section__icon--footer fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="section__social">
+					<a href="#" class="section__link section__link--footer instagram">
+						<i class="section__icon--footer fa fa-instagram" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="section__social">
+					<a href="#" class="section__link section__link--footer vimeo">
+						<i class="section__icon--footer fa fa-vimeo" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</footer>
 
 	<script src="js/main.js"></script>
